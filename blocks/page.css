@@ -1,7 +1,11 @@
 .page {
   font-family: "Inter", Helvetica, sans-serif;
+  color: #ffffff;
   background-color: #2a2c2f;
-  /*verificar medidas responsivas
-  width: 1280px;
-  height: 1883px;*/
+  margin: auto;
+  min-width: 1280px;
+  min-height: 1883px; /*verificar medidas responsivas*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
