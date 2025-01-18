@@ -20,9 +20,11 @@
 }
 
 .logo__text {
+  margin: 0;
+  font-weight: bold;
   line-height: 0.8;
   width: 100%;
-  text-align: center; /* verificar configurações do texto do título, no layout parece que o peso da fonte é maior e que o texto está mais esticado. */
+  text-align: center;
 }
 
 .lead {

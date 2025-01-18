@@ -1,9 +1,8 @@
 @font-face {
   font-family: "Inter";
+  src: url("../../font-inter/web/inter-regular-webfont.woff") format("woff");
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../../inter-4.1/web/Inter-Regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -11,7 +10,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../../inter-4.1/extras/ttf/Inter-Regular.ttf") format("truetype");
+  src: url("../../font-inter/web/Inter-Regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -19,7 +18,15 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../../inter-4.1/extras/otf/Inter-Regular.otf") format("otf");
+  src: url("../../font-inter/web/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../font-inter/web/Inter-Regular.otf") format("otf");
 }
 
 @font-face {
@@ -27,7 +34,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url("../../inter-4.1/web/Inter-Black.woff2") format("woff2");
+  src: url("../../font-inter/web/Inter-Black.woff2") format("woff2");
 }
 
 @font-face {
@@ -35,7 +42,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url("../../inter-4.1/extras/ttf/Inter-Black.ttf") format("truetype");
+  src: url("../../font-inter/web/Inter-Black.ttf") format("truetype");
 }
 
 @font-face {
@@ -43,5 +50,5 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url("../../inter-4.1/extras/otf/Inter-Black.otf") format("otf");
+  src: url("../../font-inter/web/Inter-Black.otf") format("otf");
 }
