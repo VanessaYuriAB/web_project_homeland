@@ -4,9 +4,9 @@
 }
 
 .footer__copyright {
-  max-width: 166px;
-  max-height: 16px;
-  margin-top: 92px;
+  width: 12.96875%;
+  min-height: 1.4%;
+  margin-top: 7.188%;
   margin-bottom: 0;
   font-size: 1.125rem;
   line-height: 0.888888;

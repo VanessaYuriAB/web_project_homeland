@@ -6,68 +6,20 @@
   height: 62.50663834306957%;
 }
 
-/*
-
-1883 - 100
-x - 62.50663834306957
-x= 1177px
-
-*/
-
 .logo {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 19.84375%;
-  min-height: 5.94732370433305%;
-  margin: 2.888700084961767% 40.078125% 0;
+  height: 5.94732370433305%;
+  margin: 2.65625% 40.078125% 0;
 }
-
-/*
-
-1280 - 100
-254 - x
-x= 19,84375
-
-1177 - 100
-70 - x
-x= 5,94732370433305
-
-1177 - 100
-34 - x
-x= 2,888700084961767
-
-1280 - 100
-513 - x
-x= 40,078125
-
-*/
 
 .logo__image {
-  margin-bottom: 9.9279%;
+  margin-bottom: 8.763779527559055%;
+  width: 32px;
+  height: 32px;
 }
-
-/*
-
-1177 - 100
-22,26 - x
-x= 1,89124893797791
-
-ou
-
-70 - 100
-22,26 - x
-x= 31,8
-
-ou (calcular por tentativa e erro a porcentagem até dar 70px de altura para o bloco logo)
-
-70 - 100
-x - 9.9279
-x= 6,94953 ?
-
-*/
-
-/* Prosseguir nesta parte. Fazer primeiro o redimensionamento das fontes? */
 
 .logo__text {
   margin: 0;
@@ -81,17 +33,17 @@ x= 6,94953 ?
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 984px;
-  min-height: 983px;
+  width: 76.875%;
+  min-height: 83.51741716227698%;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
 
 .lead__title {
-  width: 720px;
-  min-height: 200px;
-  margin-top: 90px;
+  width: 73.17073170731707%;
+  min-height: 20.34587995930824%;
+  margin-top: 9.147%;
   margin-bottom: 0;
   font-size: 6rem;
   font-weight: 900;
@@ -99,32 +51,18 @@ x= 6,94953 ?
   text-rendering: optimizeLegibility;
 }
 
-/*
-
-1,04167 = 100px
-
-Calculei por tentativa e erro pelo DevTools.
-
-*/
-
 .lead__subtitle {
-  width: 720px;
-  min-height: 72px;
-  margin-top: 32px;
+  width: 73.17073170731707%;
+  min-height: 7.324516785350966%;
+  margin-top: 3.253%;
   margin-bottom: 0;
   font-size: 1.875rem;
   font-weight: 400;
   line-height: 1.2;
 }
 
-/*
-
-line-height / font-size = medida em rem
-
-*/
-
 .lead__image {
-  width: 984px;
-  min-height: 615px;
-  margin-top: 64px;
+  width: 100%;
+  min-height: 52.25148683092608%;
+  margin-top: 6.505%;
 }

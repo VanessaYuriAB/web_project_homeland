@@ -4,56 +4,45 @@
 }
 
 .intro {
-  width: 830px;
-  min-height: 482px;
+  width: 64.84375%;
+  height: 83.97212543554007%;
   align-self: flex-start;
   margin-left: 11.5625%;
   display: flex;
   flex-direction: column;
 }
 
-/*
-
-1280 - 100
-148 - x
-x= 11,5625
-
-1280 - 100
-148 - 8,648648648648649
-
-*/
-
 .intro__title {
-  width: 830px;
-  min-height: 116px;
-  margin-top: 92px;
+  width: 100%;
+  min-height: 24.06639004149378%;
+  margin-top: 11.085%;
   margin-bottom: 0;
   font-size: 3.375rem;
   line-height: 1.074074;
 }
 
 .intro__blockquote {
-  width: 738px;
-  min-height: 68px;
-  margin: 40px 0 0;
+  width: 88.91566265060241%;
+  min-height: 14.10788381742739%;
+  margin: 4.82% 0 0;
   font-size: 1.5rem;
   line-height: 1.416667;
 }
 
 .intro__cite {
-  width: 732px;
-  min-height: 34px;
-  margin-top: 10px;
-  margin-right: 6px;
+  width: 88.19277108433735%;
+  min-height: 7.053941908713693%;
+  margin-top: 1.205%;
+  margin-right: 0.723%;
   font-size: 1.5rem;
   line-height: 1.416667;
   text-align: right;
 }
 
 .intro__text {
-  width: 722px;
-  min-height: 182px;
-  margin-top: 32px;
+  width: 86.98795180722892%;
+  min-height: 37.75933609958506%;
+  margin-top: 3.857%;
   margin-bottom: 0;
   line-height: 1.63;
 }

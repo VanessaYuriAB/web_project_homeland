@@ -8,7 +8,7 @@
   background-color: #2a2c2f;
   margin: auto;
   min-width: 1280px;
-  min-height: 1883px; /*verificar medidas responsivas*/
+  min-height: 1883px;
   display: flex;
   flex-direction: column;
 }
