@@ -1,5 +1,3 @@
-/* Verificar todas as medidas para torná-las responsivas. Talvez, usar o valor de largura e altura da página como valor de 100% e calcular medidas porcentagem cada parte. E fontes. */
-
 .footer {
   display: flex;
   justify-content: center;
@@ -10,6 +8,6 @@
   max-height: 16px;
   margin-top: 92px;
   margin-bottom: 0;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 1.125rem;
+  line-height: 0.888888;
 }

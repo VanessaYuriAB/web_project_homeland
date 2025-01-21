@@ -1,23 +1,73 @@
-/* Verificar todas as medidas para torná-las responsivas. Talvez, usar o valor de largura e altura da página como valor de 100% e calcular medidas porcentagem cada parte. E fontes. */
-
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  height: 62.50663834306957%;
 }
+
+/*
+
+1883 - 100
+x - 62.50663834306957
+x= 1177px
+
+*/
 
 .logo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 254px;
-  min-height: 70px;
-  margin: 34px 513px 0;
+  width: 19.84375%;
+  min-height: 5.94732370433305%;
+  margin: 2.888700084961767% 40.078125% 0;
 }
 
+/*
+
+1280 - 100
+254 - x
+x= 19,84375
+
+1177 - 100
+70 - x
+x= 5,94732370433305
+
+1177 - 100
+34 - x
+x= 2,888700084961767
+
+1280 - 100
+513 - x
+x= 40,078125
+
+*/
+
 .logo__image {
-  margin-bottom: 22.26px;
+  margin-bottom: 9.9279%;
 }
+
+/*
+
+1177 - 100
+22,26 - x
+x= 1,89124893797791
+
+ou
+
+70 - 100
+22,26 - x
+x= 31,8
+
+ou (calcular por tentativa e erro a porcentagem até dar 70px de altura para o bloco logo)
+
+70 - 100
+x - 9.9279
+x= 6,94953 ?
+
+*/
+
+/* Prosseguir nesta parte. Fazer primeiro o redimensionamento das fontes? */
 
 .logo__text {
   margin: 0;
@@ -31,7 +81,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 984px;
+  width: 984px;
   min-height: 983px;
   text-align: center;
   text-underline-position: from-font;
@@ -39,27 +89,42 @@
 }
 
 .lead__title {
-  max-width: 720px;
-  max-height: 200px;
+  width: 720px;
+  min-height: 200px;
   margin-top: 90px;
   margin-bottom: 0;
-  font-size: 96px;
+  font-size: 6rem;
   font-weight: 900;
-  line-height: 100px;
+  line-height: 1.04167;
+  text-rendering: optimizeLegibility;
 }
+
+/*
+
+1,04167 = 100px
+
+Calculei por tentativa e erro pelo DevTools.
+
+*/
 
 .lead__subtitle {
-  max-width: 720px;
-  max-height: 72px;
+  width: 720px;
+  min-height: 72px;
   margin-top: 32px;
   margin-bottom: 0;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 1.2;
 }
 
+/*
+
+line-height / font-size = medida em rem
+
+*/
+
 .lead__image {
-  max-width: 984px;
-  max-height: 615px;
+  width: 984px;
+  min-height: 615px;
   margin-top: 64px;
 }
