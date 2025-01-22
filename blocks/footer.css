@@ -4,10 +4,30 @@
 }
 
 .footer__copyright {
-  width: 12.96875%;
-  min-height: 1.4%;
-  margin-top: 7.188%;
-  margin-bottom: 0;
+  width: 166px;
+  margin-top: 7.285%;
+  margin-bottom: 1.901%;
   font-size: 1.125rem;
   line-height: 0.888888;
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  /*320*/
+
+  .footer__copyright {
+    width: 166px;
+    line-height: 14px;
+    margin-top: 20%; /*64px*/
+    margin-bottom: 7.5%; /*24px*/
+  }
+}
+
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  /*768*/
+
+  .footer__copyright {
+    width: 166px;
+    margin-top: 11.719%; /*88px*/
+    margin-bottom: 3.197%; /*24px*/
+  }
 }

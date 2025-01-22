@@ -7,8 +7,26 @@
   color: #ffffff;
   background-color: #2a2c2f;
   margin: auto;
-  min-width: 1280px;
-  min-height: 1883px;
+  min-width: 1025px;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  /*320*/
+
+  .page {
+    min-width: 320px;
+    max-width: 544px;
+  }
+}
+
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  /*768*/
+
+  .page {
+    min-width: 545px;
+    max-width: 1024px;
+  }
 }
