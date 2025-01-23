@@ -7,20 +7,34 @@ Primeiro design responsivo, com pontos de interrupção para consultas de mídia
 # Técnicas utilizadas
 
 - HTML semântico
+  ![alt text](./images/readme/HTML-semântico.png)
 
 - Flexbox
+  ![alt text](./images/readme/Flexbox1.png)
+  ![alt text](./images/readme/Flexbox2.png)
+  ![alt text](./images/readme/Flexbox3.png)
+  ![alt text](./images/readme/Flexbox4.png)
+  ![alt text](./images/readme/Flexbox5.png)
+  ![alt text](./images/readme/Flexbox6.png)
+  ![alt text](./images/readme/Flexbox7.png)
 
 - Metodologia BEM
-
-- Posicionamento
+  ![alt text](./images/readme/BEM.png)
 
 - BEM flat
+  ![alt text](./images/readme/BEM-flat.png)
 
-- Formulário
-
-- iframe
-
-- Design responsivo
+- @media
+  ![alt text](./images/readme/Consulta-de-mídia1.png)
+  ![alt text](./images/readme/Consulta-de-mídia2.png)
+  ![alt text](./images/readme/Consulta-de-mídia3.png)
+  ![alt text](./images/readme/Consulta-de-mídia4.png)
+  ![alt text](./images/readme/Consulta-de-mídia5.png)
+  ![alt text](./images/readme/Consulta-de-mídia6.png)
+  ![alt text](./images/readme/Consulta-de-mídia7.png)
+  ![alt text](./images/readme/Consulta-de-mídia8.png)
+  ![alt text](./images/readme/Consulta-de-mídia9.png)
+  ![alt text](./images/readme/Consulta-de-mídia10.png)
 
 # GitHub Pages
 
