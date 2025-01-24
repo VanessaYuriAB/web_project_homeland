@@ -1,49 +1,53 @@
 .content__intro {
-  width: 64.84375%;
+  max-width: 830px;
   align-self: flex-start;
-  margin-left: 11.5625%;
+  margin-left: 11.75%; /*148px*/
   display: flex;
   flex-direction: column;
 }
 
 .content__intro-title {
   max-width: 830px;
-  margin-top: 11.085%;
+  margin-top: 11.1%; /*92px*/
   margin-bottom: 0;
-  font-size: 3.375rem;
-  line-height: 1.074074;
+  font-size: 54px;
+  line-height: 1.05;
   text-rendering: optimizeLegibility;
 }
 
 .content__intro-blockquote {
   max-width: 738px;
-  margin: 4.82% 0 0;
-  font-size: 1.5rem;
-  line-height: 1.416667;
+  margin: 4.85% 0 0; /*40px*/
+  font-size: 24px;
+  line-height: 1.4;
 }
 
 .content__intro-cite {
   max-width: 732px;
-  margin-top: 1.205%;
-  margin-right: 0.723%;
-  font-size: 1.5rem;
-  line-height: 1.416667;
+  margin-top: 1.25%; /*10px*/
+  margin-right: 0.75%; /*6px*/
+  font-size: 24px;
+  line-height: 1.4;
   text-align: right;
 }
 
 .content__intro-text {
   max-width: 722px;
-  margin-top: 3.857%;
-  margin-bottom: 0;
-  line-height: 1.63;
+  margin: 3.9% 1.25% 0 0; /*32px 10px*/
+  line-height: 1.65;
 }
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
   /*320*/
 
+  .content__intro {
+    max-width: 288px;
+    margin: 0;
+  }
+
   .content__intro-title {
     max-width: 100%; /*288px*/
-    margin-top: 22.225%; /*64px*/
+    margin-top: 25.2%; /*64px*/
     font-size: 32px;
     line-height: 35px;
   }
@@ -51,42 +55,50 @@
   .content__intro-blockquote {
     max-width: 100%; /*288px*/
     line-height: 30px;
-    margin: 13.89% 0 0; /*40px*/
+    margin-top: 15.75%; /*40px*/
   }
 
   .content__intro-cite {
     max-width: 100%; /*288px*/
-    margin-top: 3.4%; /*10px*/
+    margin-top: 3.95%; /*10px*/
+    margin-right: 0;
   }
 
   .content__intro-text {
     max-width: 100%; /*288px*/
-    margin-top: 11.115%; /*32px*/
+    margin-top: 12.6%; /*32px*/
+    margin-right: 0;
   }
 }
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
   /*768*/
 
+  .content__intro {
+    max-width: 720px;
+    margin: 0;
+  }
+
   .content__intro-title {
-    max-width: 92.05729166666667%; /*707px;*/
-    margin-top: 11.71875%; /*90px*/
+    max-width: 707px;
+    margin-top: 12.5%; /*90px*/
     font-size: 45px;
     line-height: 49px;
   }
 
   .content__intro-blockquote {
-    max-width: 93.75%; /*720px*/
-    margin: 6.510416666666667% 0 0; /*50px*/
+    max-width: 720px;
+    margin-top: 7%; /*50px*/
   }
 
   .content__intro-cite {
-    max-width: 93.75%; /*720px*/
+    max-width: 720px;
     margin: 0;
   }
 
   .content__intro-text {
-    max-width: 93.75%; /*720px*/
-    margin-top: 4.547%; /*32px*/
+    max-width: 720px;
+    margin-top: 4.45%; /*32px*/
+    margin-right: 0;
   }
 }

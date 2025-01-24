@@ -1,13 +1,13 @@
 .content {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
   /*320*/
 
   .content {
-    width: 90%; /*288px*/
     margin: 0 auto;
   }
 }
@@ -16,7 +16,6 @@
   /*768*/
 
   .content {
-    width: 93.75%; /*720px*/
     margin: 0 auto;
   }
 }

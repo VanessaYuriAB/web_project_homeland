@@ -1,22 +1,22 @@
 .footer {
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .footer__copyright {
-  width: 166px;
-  margin-top: 7.285%;
-  margin-bottom: 1.901%;
-  font-size: 1.125rem;
-  line-height: 0.888888;
+  max-width: 166px;
+  margin-top: 7.3%; /*92px*/
+  margin-bottom: 1.95%; /*24px*/
+  font-size: 14px;
+  line-height: 1.15;
 }
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
   /*320*/
 
   .footer__copyright {
-    width: 166px;
-    line-height: 14px;
+    line-height: 1;
     margin-top: 20%; /*64px*/
     margin-bottom: 7.5%; /*24px*/
   }
@@ -26,8 +26,7 @@
   /*768*/
 
   .footer__copyright {
-    width: 166px;
-    margin-top: 11.719%; /*88px*/
-    margin-bottom: 3.197%; /*24px*/
+    margin-top: 11.75%; /*88px*/
+    margin-bottom: 3.2%; /*24px*/
   }
 }
