@@ -1,4 +1,4 @@
-.logo {
+.header__logo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,13 +6,13 @@
   margin: 2.65625% 40.078125% 0;
 }
 
-.logo__image {
+.header__logo-image {
   margin-bottom: 8.763779527559055%;
   width: 32px;
   height: 32px;
 }
 
-.logo__text {
+.header__logo-text {
   margin: 0;
   font-weight: bold;
   line-height: 0.8;
@@ -23,18 +23,18 @@
 @media screen and (min-width: 320px) and (max-width: 544px) {
   /*320*/
 
-  .logo {
+  .header__logo {
     width: 58.75%; /*188px*/
     margin: 6.25% 20.625% 0; /*20 66*/
   }
 
-  .logo__image {
+  .header__logo-image {
     margin-bottom: 8.8%; /*16,53px*/
     width: 23.69px;
     height: 23.77px;
   }
 
-  .logo__text {
+  .header__logo-text {
     width: 188.62px;
     font-size: 14px;
   }
@@ -43,16 +43,16 @@
 @media screen and (min-width: 545px) and (max-width: 1024px) {
   /*768*/
 
-  .logo {
+  .header__logo {
     margin: 3.90625% 33.46354166666667% 0; /*30 257*/
   }
 
-  .logo__image {
+  .header__logo-image {
     margin-bottom: 8.259842519685039%; /*20,98px*/
     height: 30.17px;
   }
 
-  .logo__text {
+  .header__logo-text {
     width: 254.85px;
   }
 }
