@@ -39,3 +39,7 @@ Primeiro design responsivo, com pontos de interrupção para consultas de mídia
 # GitHub Pages
 
 https://vanessayuriab.github.io/web_project_homeland/
+
+# Melhorias:
+
+- Verificar e, caso necessário, adicionar pontos de interrupção para ajuste de margens e fontes entre consultas de mídia.
