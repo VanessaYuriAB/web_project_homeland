@@ -8,7 +8,6 @@
 
 .content__intro-title {
   max-width: 830px;
-  margin-top: 11.1%; /*92px*/
   margin-bottom: 0;
   font-size: 54px;
   line-height: 1.05;
@@ -46,8 +45,8 @@
   }
 
   .content__intro-title {
+    margin: 0;
     max-width: 100%; /*288px*/
-    margin-top: 25.2%; /*64px*/
     font-size: 32px;
     line-height: 35px;
   }
@@ -80,8 +79,8 @@
   }
 
   .content__intro-title {
+    margin: 0;
     max-width: 707px;
-    margin-top: 12.5%; /*90px*/
     font-size: 45px;
     line-height: 49px;
   }
