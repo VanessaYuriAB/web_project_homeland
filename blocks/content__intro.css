@@ -41,7 +41,7 @@
 
   .content__intro {
     max-width: 288px;
-    margin: 0;
+    margin: 0 auto;
   }
 
   .content__intro-title {
@@ -75,7 +75,7 @@
 
   .content__intro {
     max-width: 720px;
-    margin: 0;
+    margin: 0 auto;
   }
 
   .content__intro-title {

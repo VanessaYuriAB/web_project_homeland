@@ -9,7 +9,6 @@
   /*320*/
 
   .content {
-    margin: 0 auto;
     padding-top: 20%; /*64px*/
   }
 }
@@ -18,7 +17,6 @@
   /*768*/
 
   .content {
-    margin: 0 auto;
     padding-top: 12%; /*90px*/
   }
 }
