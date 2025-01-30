@@ -18,6 +18,14 @@
 
 @import url(../blocks/content__intro.css);
 
+@import url(../blocks/content__photo-grid.css);
+
+/*blocos elementos*/
+
+@import url(../blocks/content__places.css);
+
+/*blocos elementos*/
+
 @import url(../blocks/footer.css);
 
 @import url(../blocks/footer__copyright.css);
