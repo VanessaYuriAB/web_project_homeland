@@ -14,8 +14,24 @@
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
   /*320*/
+
+  .content__places {
+    padding-top: 1.3%; /*62px*/
+    max-width: 320px;
+    min-height: 4780px; /*AQUI, PRECISA VERIFICAR A ALTURA DO BOX PARA SP*/
+    row-gap: 1.05%; /*50px*/
+  }
 }
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
   /*768*/
+
+  .content__places {
+    padding-top: 11.75%; /*88px*/
+    max-width: 720px;
+    min-height: 2966px; /*AQUI, PRECISA VERIFICAR A ALTURA DO BOX PARA SP*/
+    row-gap: 2.5%; /*72px*/
+  }
 }
+
+/*PARA VERIFICAR NO DEV TOOLS, CONFIGURAR O .CONTENT__PLACES-ARTICLE*/
