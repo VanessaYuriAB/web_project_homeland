@@ -11,6 +11,17 @@
 
 @font-face {
   font-family: "Inter";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/inter-italic-webfont.woff") format("woff"),
+    url("./fonts/Inter-Italic.woff2") format("woff2"),
+    url("./fonts/Inter-Italic.ttf") format("truetype"),
+    url("./fonts/Inter-Italic.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-display: swap;
