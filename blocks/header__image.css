@@ -1,7 +1,7 @@
 .header__image {
   max-width: 984px;
   max-height: 615px;
-  margin-top: 5.1%; /*64px*/
+  margin-top: 64px;
 }
 
 .header__image-jpg {
@@ -14,9 +14,11 @@
   /*320*/
 
   .header__image {
-    max-width: 320px;
-    max-height: 200px;
-    margin-top: 12.5%; /*40px*/
+    min-width: 320px;
+    max-width: 544px;
+    min-height: 200px;
+    max-height: 340px;
+    margin-top: 40px;
   }
 }
 
@@ -26,6 +28,6 @@
   .header__image {
     max-width: 768px;
     max-height: 480px;
-    margin-top: 4%; /*30px*/
+    margin-top: 30px;
   }
 }
