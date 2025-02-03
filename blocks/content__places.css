@@ -12,6 +12,10 @@
   row-gap: 80px;
 }
 
+.content__places-title-none {
+  display: none;
+}
+
 @media screen and (min-width: 320px) and (max-width: 720px) {
   /*320*/
 

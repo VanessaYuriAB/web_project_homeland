@@ -11,6 +11,10 @@
   gap: 16px;
 }
 
+.content__photo-grid-title-none {
+  display: none;
+}
+
 .content__photo-grid-img {
   width: 100%;
   min-height: 100%;
