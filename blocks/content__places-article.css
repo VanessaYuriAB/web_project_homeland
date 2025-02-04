@@ -187,6 +187,8 @@
     height: min-content;
   }
 
+  /*355px e 48px*/
+
   .places-article__button {
     width: fit-content;
     height: fit-content;
