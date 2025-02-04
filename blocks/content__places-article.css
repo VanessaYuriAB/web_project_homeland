@@ -24,7 +24,6 @@
 .places-article__img-box {
   width: 460px;
   height: 460px;
-  box-shadow: 10px 10px 25px 0px #00000080;
   grid-area: image;
 }
 
@@ -32,6 +31,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  box-shadow: 10px 10px 25px 0px #00000080;
 }
 
 .places-article__img:hover {
@@ -117,7 +117,7 @@
   opacity: 70%;
 }
 
-@media screen and (min-width: 320px) and (max-width: 720px) {
+@media screen and (min-width: 320px) and (max-width: 544px) {
   /*320*/
 
   .content__places-article {
@@ -165,12 +165,13 @@
   }
 }
 
-@media screen and (min-width: 721px) and (max-width: 1024px) {
+@media screen and (min-width: 545px) and (max-width: 1024px) {
   /*768*/
 
   .content__places-article {
-    width: 720px;
-    grid-template-columns: 320px 352px;
+    min-width: 100%; /**/
+    width: 100%; /**/
+    grid-template-columns: minmax(180.95px, 340px) minmax(187.34px, 352px); /**/
     gap: 48px 28px;
     justify-content: space-between;
   }
@@ -178,25 +179,26 @@
   .places-article__title {
     font-size: 42px;
     line-height: 1.1;
-    width: 340px;
+    width: auto; /**/
   }
 
   .places-article__img-box {
-    width: 340px;
-    height: 340px;
+    width: 100%;
+    height: min-content;
   }
 
   .places-article__button {
-    width: 355px;
+    width: fit-content;
+    height: fit-content;
   }
 
   .places-article__name-box {
-    width: 352px;
+    width: auto;
   }
 
   .places-article__text {
     font-size: 16px;
     line-height: 1.63;
-    width: 352px;
+    width: auto;
   }
 }

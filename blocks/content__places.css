@@ -16,24 +16,24 @@
   display: none;
 }
 
-@media screen and (min-width: 320px) and (max-width: 720px) {
+@media screen and (min-width: 320px) and (max-width: 544px) {
   /*320*/
 
   .content__places {
     padding-top: 62px;
-    width: 320px;
+    max-width: 320px;
     min-height: 5917px;
     row-gap: 50px;
   }
 }
 
-@media screen and (min-width: 721px) and (max-width: 1024px) {
+@media screen and (min-width: 545px) and (max-width: 1024px) {
   /*768*/
 
   .content__places {
     padding-top: 88px;
     max-width: 720px;
-    min-height: 2952px;
+    min-height: max-content; /*2952px;*/
     row-gap: 72px;
   }
 }
