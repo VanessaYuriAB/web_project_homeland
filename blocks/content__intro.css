@@ -16,15 +16,15 @@
 
 .content__intro-blockquote {
   max-width: 738px;
-  margin: 4.85% 0 0; /*40px*/
+  margin: 40px 0 0;
   font-size: 24px;
   line-height: 1.4;
 }
 
 .content__intro-cite {
   max-width: 732px;
-  margin-top: 1.25%; /*10px*/
-  margin-right: 0.75%; /*6px*/
+  margin-top: 10px;
+  margin-right: 6px;
   font-size: 24px;
   line-height: 1.4;
   text-align: right;
@@ -32,7 +32,7 @@
 
 .content__intro-text {
   max-width: 722px;
-  margin: 3.9% 1.25% 0 0; /*32px 10px*/
+  margin: 32px 10px 0 0;
   line-height: 1.65;
 }
 
@@ -54,18 +54,18 @@
   .content__intro-blockquote {
     max-width: 100%; /*288px*/
     line-height: 30px;
-    margin-top: 15.75%; /*40px*/
+    margin-top: 40px;
   }
 
   .content__intro-cite {
     max-width: 100%; /*288px*/
-    margin-top: 3.95%; /*10px*/
+    margin-top: 10px;
     margin-right: 0;
   }
 
   .content__intro-text {
     max-width: 100%; /*288px*/
-    margin-top: 12.6%; /*32px*/
+    margin-top: 32px;
     margin-right: 0;
   }
 }
@@ -87,7 +87,7 @@
 
   .content__intro-blockquote {
     max-width: 720px;
-    margin-top: 7%; /*50px*/
+    margin-top: 50px;
   }
 
   .content__intro-cite {
@@ -97,7 +97,7 @@
 
   .content__intro-text {
     max-width: 720px;
-    margin-top: 4.45%; /*32px*/
+    margin-top: 32px;
     margin-right: 0;
   }
 }

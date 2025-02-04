@@ -7,7 +7,7 @@
 }
 
 .header__logo-image {
-  margin-bottom: 8.77%; /*22.26px*/
+  margin-bottom: 22.26px;
   width: 32px;
   height: 32px;
 }
@@ -26,7 +26,7 @@
   }
 
   .header__logo-image {
-    margin-bottom: 8.8%; /*16.53px*/
+    margin-bottom: 16.53px;
     width: 23.69px;
     height: 23.77px;
   }
@@ -45,7 +45,7 @@
   }
 
   .header__logo-image {
-    margin-bottom: 8.25%; /*20.98px*/
+    margin-bottom: 20.98px;
     height: 30.17px;
   }
 
