@@ -61,23 +61,6 @@
   align-self: end;
 }
 
-.name-box__title {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.2;
-  letter-spacing: 0.12em;
-  text-align: left;
-  color: #aaaaaa;
-  margin: 0 0 8px;
-}
-
-.name-box__text {
-  font-size: 18px;
-  line-height: 1.22;
-  text-align: left;
-  margin: 0;
-}
-
 .places-article__text-box {
   grid-area: text;
 }
