@@ -48,3 +48,4 @@ https://vanessayuriab.github.io/web_project_homeland/
 # Melhorias:
 
 - Pontos de interrupção com intervalos menores para refinar layout.
+- Usar o evento onclick do JavaScript para os <button>s.
