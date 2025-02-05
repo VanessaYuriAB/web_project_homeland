@@ -12,10 +12,6 @@
   row-gap: 80px;
 }
 
-.content__title_invisible {
-  display: none;
-}
-
 .content__article {
   width: 984px;
   min-width: max-content;
