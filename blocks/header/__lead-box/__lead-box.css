@@ -1,4 +1,4 @@
-.header__lead {
+.header__lead-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-.header__lead-title {
+.header__title {
   max-width: 720px;
   margin-top: 90px;
   margin-bottom: 0;
@@ -16,7 +16,7 @@
   text-rendering: optimizeLegibility;
 }
 
-.header__lead-subtitle {
+.header__subtitle {
   max-width: 720px;
   margin-top: 32px;
   margin-bottom: 0;
@@ -28,18 +28,18 @@
 @media screen and (min-width: 320px) and (max-width: 544px) {
   /*320*/
 
-  .header__lead {
+  .header__lead-box {
     max-width: 288px;
   }
 
-  .header__lead-title {
+  .header__title {
     max-width: 228px;
     margin-top: 50px;
     font-size: 40px;
     line-height: 44px;
   }
 
-  .header__lead-subtitle {
+  .header__subtitle {
     max-width: 100%;
     margin-top: 16px;
     font-size: 16px;
@@ -50,17 +50,17 @@
 @media screen and (min-width: 545px) and (max-width: 1024px) {
   /*768*/
 
-  .header__lead {
+  .header__lead-box {
     max-width: 720px;
   }
 
-  .header__lead-title {
+  .header__title {
     max-width: 530px;
     font-size: 75px;
     line-height: 79px;
   }
 
-  .header__lead-subtitle {
+  .header__subtitle {
     max-width: 720px;
     margin-top: 25px;
     font-size: 30px;

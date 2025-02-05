@@ -11,11 +11,11 @@
   gap: 16px;
 }
 
-.content__photo-grid-title-none {
+.content__title_invisible {
   display: none;
 }
 
-.content__photo-grid-img {
+.content__imgs {
   width: 100%;
   min-height: 100%;
   max-height: 100%;

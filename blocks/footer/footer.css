@@ -1,25 +1,25 @@
-.header {
+.page__footer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding-top: 34px;
+  padding-top: 92px;
+  padding-bottom: 24px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
   /*320*/
 
-  .header {
-    padding-top: 20px;
+  .page__footer {
+    padding-top: 64px;
   }
 }
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
   /*768*/
 
-  .header {
-    padding-top: 30px;
+  .page__footer {
+    padding-top: 88px;
   }
 }
