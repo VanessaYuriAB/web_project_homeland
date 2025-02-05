@@ -6,6 +6,6 @@
 
 .content__text-link:hover {
   color: #ffffff;
-  cursor: url(../images/hover-icon-button.gif), default;
+  cursor: url(../../../../../images/hover-icon-button.gif), default;
   opacity: 70%;
 }
