@@ -7,5 +7,5 @@
 
 .content__art-img:hover {
   opacity: 50%;
-  cursor: url(../../../../../images/hover-icon-img.gif), default;
+  cursor: url(../images/hover-icon-img.gif), default;
 }
