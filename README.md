@@ -35,6 +35,7 @@ Primeiro design responsivo, com pontos de interrupção para consultas de mídia
   ![alt text](./images/readme/Consulta-de-mídia8.png)
   ![alt text](./images/readme/Consulta-de-mídia9.png)
   ![alt text](./images/readme/Consulta-de-mídia10.png)
+  ![alt text](./images/readme/Consulta-de-mídia11.png)
 
 - Grid Layout
   ![alt text](./images/readme/Grid1.png)
@@ -47,5 +48,4 @@ https://vanessayuriab.github.io/web_project_homeland/
 
 # Melhorias:
 
-- Pontos de interrupção com intervalos menores para refinar layout.
 - Usar o evento onclick do JavaScript para botões.
