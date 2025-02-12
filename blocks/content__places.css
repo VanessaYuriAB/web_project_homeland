@@ -1,4 +1,4 @@
-.content__article-box {
+.places__article-box {
   width: 984px;
   min-width: max-content;
   display: grid;
@@ -14,7 +14,7 @@
 @media screen and (min-width: 320px) and (max-width: 544px) {
   /*320*/
 
-  .content__article-box {
+  .places__article-box {
     width: 320px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, max-content);
@@ -32,7 +32,7 @@
 @media screen and (min-width: 545px) and (max-width: 739px) {
   /*redimensionamento dos botões*/
 
-  .content__article-box {
+  .places__article-box {
     min-width: 100%;
     width: 100%;
     grid-template-columns: minmax(180.95px, 340px) minmax(187.34px, 352px);
@@ -44,7 +44,7 @@
 @media screen and (min-width: 740px) and (max-width: 1024px) {
   /*768*/
 
-  .content__article-box {
+  .places__article-box {
     min-width: 100%;
     width: 100%;
     grid-template-columns: minmax(180.95px, 340px) minmax(187.34px, 352px);
@@ -52,3 +52,5 @@
     justify-content: space-between;
   }
 }
+
+/*query para refinamento do layout, quebra brusca do grande para o médio*/
