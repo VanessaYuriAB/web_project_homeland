@@ -1,0 +1,11 @@
+/*.places__text-box > .places__text > .places__text-link e .places__text-cite*/
+
+.places__text-link {
+  color: #ffffff;
+}
+
+.places__text-link:hover {
+  color: #080707;
+  cursor: url(../images/hover-icon-button.gif), default;
+  opacity: 70%;
+}

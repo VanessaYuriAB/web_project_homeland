@@ -1,33 +1,5 @@
-.header__image-box {
-  max-width: 984px;
-  max-height: 615px;
-  margin-top: 64px;
-}
-
 .header__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-@media screen and (min-width: 320px) and (max-width: 544px) {
-  /*320*/
-
-  .header__image-box {
-    min-width: 320px;
-    max-width: 544px;
-    min-height: 200px;
-    max-height: 340px;
-    margin-top: 40px;
-  }
-}
-
-@media screen and (min-width: 545px) and (max-width: 1024px) {
-  /*768*/
-
-  .header__image-box {
-    max-width: 768px;
-    max-height: 480px;
-    margin-top: 30px;
-  }
 }

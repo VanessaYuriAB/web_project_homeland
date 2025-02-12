@@ -8,11 +8,50 @@
   padding-top: 34px;
 }
 
+.header__logo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 254px;
+  height: 70px;
+}
+
+.header__lead-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 984px;
+  text-align: center;
+}
+
+.header__image-box {
+  max-width: 984px;
+  max-height: 615px;
+  margin-top: 64px;
+}
+
 @media screen and (min-width: 320px) and (max-width: 544px) {
   /*320*/
 
   .page__header {
     padding-top: 20px;
+  }
+
+  .header__logo-box {
+    width: 188px;
+    height: 52px;
+  }
+
+  .header__lead-box {
+    max-width: 288px;
+  }
+
+  .header__image-box {
+    min-width: 320px;
+    max-width: 544px;
+    min-height: 200px;
+    max-height: 340px;
+    margin-top: 40px;
   }
 }
 
@@ -21,5 +60,19 @@
 
   .page__header {
     padding-top: 30px;
+  }
+
+  .header__logo-box {
+    height: 66px;
+  }
+
+  .header__lead-box {
+    max-width: 720px;
+  }
+
+  .header__image-box {
+    max-width: 768px;
+    max-height: 480px;
+    margin-top: 30px;
   }
 }

@@ -1,4 +1,4 @@
-.content__art-title {
+.places__art-title {
   font-size: 72px;
   font-weight: 900;
   line-height: 1.05;
@@ -9,13 +9,13 @@
   grid-area: title;
 }
 
-.content__art-img-box {
+.places__art-img-box {
   width: 460px;
   height: 460px;
   grid-area: image;
 }
 
-.content__button {
+.places__button {
   text-decoration: none;
   color: #ffffff;
   width: 356.08px;
@@ -35,7 +35,7 @@
   grid-area: button;
 }
 
-.content__button:hover {
+.places__button:hover {
   background-image: linear-gradient(
     90deg,
     rgba(2, 120, 254, 0.25) 0%,
@@ -44,51 +44,51 @@
   cursor: url(../images/hover-icon-button.gif), default;
 }
 
-.content__name-box {
+.places__name-box {
   width: 456px;
   grid-area: name-box;
   align-self: end;
 }
 
-.content__text-box {
+.places__text-box {
   font-size: 18px;
   line-height: 1.63;
   text-align: left;
   width: 484px;
   margin: 0 0 25px;
   grid-area: text;
+}
 
-  &:last-of-type {
-    margin-bottom: 0;
-  }
+.places__text-box:last-of-type {
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
   /*320*/
 
-  .content__art-title {
+  .places__art-title {
     font-size: 32px;
     line-height: 1.1;
     width: 288px;
   }
 
-  .content__art-img-box {
+  .places__art-img-box {
     width: 320px;
     height: 320px;
   }
 
-  .content__button {
+  .places__button {
     width: 288px;
     font-size: 14px;
     line-height: 1.2;
     padding: 15px 22px 16px 21px;
   }
 
-  .content__name-box {
+  .places__name-box {
     width: 288px;
   }
 
-  .content__text-box {
+  .places__text-box {
     width: 288px;
   }
 }
@@ -96,27 +96,27 @@
 @media screen and (min-width: 545px) and (max-width: 739px) {
   /*redimensionamento dos botões*/
 
-  .content__art-title {
+  .places__art-title {
     font-size: 42px;
     line-height: 1.1;
     width: auto;
   }
 
-  .content__art-img-box {
+  .places__art-img-box {
     width: 100%;
     height: min-content;
   }
 
-  .content__button {
+  .places__button {
     width: fit-content;
     height: fit-content;
   }
 
-  .content__name-box {
+  .places__name-box {
     width: auto;
   }
 
-  .content__text-box {
+  .places__text-box {
     font-size: 16px;
     line-height: 1.63;
     width: auto;
@@ -126,26 +126,26 @@
 @media screen and (min-width: 740px) and (max-width: 1024px) {
   /*768*/
 
-  .content__art-title {
+  .places__art-title {
     font-size: 42px;
     line-height: 1.1;
     width: auto;
   }
 
-  .content__art-img-box {
+  .places__art-img-box {
     width: 100%;
     height: min-content;
   }
 
-  .content__button {
+  .places__button {
     width: 355px;
   }
 
-  .content__name-box {
+  .places__name-box {
     width: auto;
   }
 
-  .content__text-box {
+  .places__text-box {
     font-size: 16px;
     line-height: 1.63;
     width: auto;

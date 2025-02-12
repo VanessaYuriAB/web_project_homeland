@@ -1,11 +1,3 @@
-.header__lead-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 984px;
-  text-align: center;
-}
-
 .header__title {
   max-width: 720px;
   margin-top: 90px;
@@ -28,10 +20,6 @@
 @media screen and (min-width: 320px) and (max-width: 544px) {
   /*320*/
 
-  .header__lead-box {
-    max-width: 288px;
-  }
-
   .header__title {
     max-width: 228px;
     margin-top: 50px;
@@ -49,10 +37,6 @@
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
   /*768*/
-
-  .header__lead-box {
-    max-width: 720px;
-  }
 
   .header__title {
     max-width: 530px;
