@@ -8,11 +8,22 @@
   padding-bottom: 24px;
 }
 
+.footer__copyright {
+  margin: 0;
+  max-width: 166px;
+  font-size: 14px;
+  line-height: 1.15;
+}
+
 @media screen and (min-width: 320px) and (max-width: 544px) {
   /*320*/
 
   .page__footer {
     padding-top: 64px;
+  }
+
+  .footer__copyright {
+    line-height: 1;
   }
 }
 
