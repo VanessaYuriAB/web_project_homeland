@@ -8,8 +8,12 @@
 
 @import url(../blocks/header.css);
 
-@import url(../blocks/page__content.css);
+@import url(../blocks/content.css);
 
-@import url(../blocks/places__article-box.css);
+@import url(../blocks/intro.css);
 
-@import url(../blocks/page__footer.css);
+@import url(../blocks/photo-grid.css);
+
+@import url(../blocks/article-box.css);
+
+@import url(../blocks/footer.css);

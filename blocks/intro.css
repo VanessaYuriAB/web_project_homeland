@@ -1,0 +1,85 @@
+.intro__title {
+  max-width: 830px;
+  margin-bottom: 0;
+  font-size: 54px;
+  line-height: 1.05;
+  text-rendering: optimizeLegibility;
+}
+
+.intro__blockquote {
+  max-width: 738px;
+  margin: 40px 0 0;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.intro__cite {
+  max-width: 732px;
+  margin-top: 10px;
+  margin-right: 6px;
+  font-size: 24px;
+  line-height: 1.4;
+  text-align: right;
+}
+
+.intro__text {
+  max-width: 722px;
+  margin: 32px 10px 0 0;
+  line-height: 1.65;
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  /*320*/
+
+  .intro__title {
+    margin: 0;
+    max-width: 100%; /*288px*/
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .intro__blockquote {
+    max-width: 100%; /*288px*/
+    line-height: 30px;
+    margin-top: 40px;
+  }
+
+  .intro__cite {
+    max-width: 100%; /*288px*/
+    margin-top: 10px;
+    margin-right: 0;
+  }
+
+  .intro__text {
+    max-width: 100%; /*288px*/
+    margin-top: 32px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 740px) and (max-width: 1024px) {
+  /*768*/
+
+  .intro__title {
+    margin: 0;
+    max-width: 707px;
+    font-size: 45px;
+    line-height: 49px;
+  }
+
+  .intro__blockquote {
+    max-width: 720px;
+    margin-top: 50px;
+  }
+
+  .intro__cite {
+    max-width: 720px;
+    margin: 0;
+  }
+
+  .intro__text {
+    max-width: 720px;
+    margin-top: 32px;
+    margin-right: 0;
+  }
+}
