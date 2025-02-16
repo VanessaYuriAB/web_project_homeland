@@ -1,4 +1,4 @@
-.page__header {
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +8,7 @@
   padding-top: 34px;
 }
 
-.header__logo-box {
+.logo-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,18 +16,18 @@
   height: 70px;
 }
 
-.header__img-logo {
+.img-logo {
   margin-bottom: 22.26px;
   width: 32px;
   height: 32px;
 }
 
-.header__img-text {
+.text-logo {
   width: 254.84px;
   height: 14.94px;
 }
 
-.header__lead-box {
+.lead-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,7 +35,7 @@
   text-align: center;
 }
 
-.header__title {
+.lead-title {
   max-width: 720px;
   margin-top: 90px;
   margin-bottom: 0;
@@ -45,7 +45,7 @@
   text-rendering: optimizeLegibility;
 }
 
-.header__subtitle {
+.lead-subtitle {
   max-width: 720px;
   margin-top: 32px;
   margin-bottom: 0;
@@ -54,13 +54,13 @@
   line-height: 1.2;
 }
 
-.header__image-box {
+.image-box {
   max-width: 984px;
   max-height: 615px;
   margin-top: 64px;
 }
 
-.header__img {
+.image {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -69,45 +69,45 @@
 @media screen and (min-width: 320px) and (max-width: 419px) {
   /*320*/
 
-  .page__header {
+  .header {
     padding-top: 20px;
   }
 
-  .header__logo-box {
+  .logo-box {
     width: 188px;
     height: 52px;
   }
 
-  .header__img-logo {
+  .img-logo {
     margin-bottom: 16.53px;
     width: 23.69px;
     height: 23.77px;
   }
 
-  .header__img-text {
+  .text-logo {
     width: 188.62px;
     height: 11.1px;
   }
 
-  .header__lead-box {
+  .lead-box {
     max-width: 288px;
   }
 
-  .header__title {
+  .lead-title {
     max-width: 228px;
     margin-top: 50px;
     font-size: 40px;
     line-height: 44px;
   }
 
-  .header__subtitle {
+  .lead-subtitle {
     max-width: 100%;
     margin-top: 16px;
     font-size: 16px;
     line-height: 20px;
   }
 
-  .header__image-box {
+  .image-box {
     min-width: 320px;
     max-width: 544px;
     min-height: 200px;
@@ -119,45 +119,45 @@
 @media screen and (min-width: 420px) and (max-width: 544px) {
   /*query adicional para refinamento do layout*/
 
-  .page__header {
+  .header {
     padding-top: 20px;
   }
 
-  .header__logo-box {
+  .logo-box {
     width: 188px;
     height: 52px;
   }
 
-  .header__img-logo {
+  .img-logo {
     margin-bottom: 16.53px;
     width: 23.69px;
     height: 23.77px;
   }
 
-  .header__img-text {
+  .text-logo {
     width: 188.62px;
     height: 11.1px;
   }
 
-  .header__lead-box {
+  .lead-box {
     max-width: 288px;
   }
 
-  .header__title {
+  .lead-title {
     max-width: 420px;
     margin-top: 60px;
     font-size: 53px;
     line-height: 57px;
   }
 
-  .header__subtitle {
+  .lead-subtitle {
     max-width: 100%;
     margin-top: 20px;
     font-size: 16px;
     line-height: 20px;
   }
 
-  .header__image-box {
+  .image-box {
     min-width: 320px;
     max-width: 544px;
     min-height: 200px;
@@ -169,41 +169,41 @@
 @media screen and (min-width: 545px) and (max-width: 867px) {
   /*768*/
 
-  .page__header {
+  .header {
     padding-top: 30px;
   }
 
-  .header__logo-box {
+  .logo-box {
     height: 66px;
   }
 
-  .header__img-logo {
+  .img-logo {
     margin-bottom: 20.98px;
     height: 30.17px;
   }
 
-  .header__img-text {
+  .text-logo {
     height: 14.09px;
   }
 
-  .header__lead-box {
+  .lead-box {
     max-width: 720px;
   }
 
-  .header__title {
+  .lead-title {
     max-width: 530px;
     font-size: 75px;
     line-height: 79px;
   }
 
-  .header__subtitle {
+  .lead-subtitle {
     max-width: 720px;
     margin-top: 25px;
     font-size: 30px;
     line-height: 36px;
   }
 
-  .header__image-box {
+  .image-box {
     max-width: 768px;
     max-height: 480px;
     margin-top: 30px;
@@ -213,41 +213,41 @@
 @media screen and (min-width: 868px) and (max-width: 1024px) {
   /*query adicional para refinamento do layout*/
 
-  .page__header {
+  .header {
     padding-top: 30px;
   }
 
-  .header__logo-box {
+  .logo-box {
     height: 66px;
   }
 
-  .header__img-logo {
+  .img-logo {
     margin-bottom: 20.98px;
     height: 30.17px;
   }
 
-  .header__img-text {
+  .text-logo {
     height: 14.09px;
   }
 
-  .header__lead-box {
+  .lead-box {
     max-width: 720px;
   }
 
-  .header__title {
+  .lead-title {
     max-width: 630px;
     font-size: 85px;
     line-height: 89px;
   }
 
-  .header__subtitle {
+  .lead-subtitle {
     max-width: 720px;
     margin-top: 25px;
     font-size: 30px;
     line-height: 36px;
   }
 
-  .header__image-box {
+  .image-box {
     max-width: 768px;
     max-height: 480px;
     margin-top: 30px;
