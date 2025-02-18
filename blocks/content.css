@@ -77,6 +77,13 @@
 @media screen and (min-width: 545px) and (max-width: 739px) {
   /*redimensionamento dos botões*/
 
+  .content__photo-grid {
+    width: 95.9%; /*720px*/
+    padding-top: 64px;
+    grid-template-columns: repeat(2, 1fr); /*352px*/
+    grid-template-rows: repeat(4, 1fr); /*264px*/
+  }
+
   .content__places {
     padding-top: 88px;
     max-width: 720px;
