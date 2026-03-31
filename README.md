@@ -1,22 +1,60 @@
-# Web_project_homeland: De Pátria para Pátria
+# 🌍 Web_project_homeland: De Pátria para Pátria
 
-Página web que mostra as cidades natais de alguns funcionários da TripleTen. Com HTML e CSS avançados, Flexbox, Metodologia BEM e BEM Flat, Figma, Media Queries e Grid Layout.
+Página web responsiva que apresenta as cidades natais de alguns funcionários da TripleTen, desenvolvida como parte do currículo de Desenvolvimento Web. 
+
+Com HTML e CSS avançados, Flexbox, Metodologia BEM e BEM Flat, Figma, Media Queries e Grid Layout.
 
 Primeiro design responsivo, com pontos de interrupção para consultas de mídia fornecidos no projeto.
 
-# Técnicas utilizadas
+## 🛠️ Técnicas e conceitos aplicados
+
+HTML semântico, Flexbox, Metodologia BEM Flat, Media Queries e Grid Layout.
 
 - HTML semântico
-  ![alt text](./images/readme/HTML-semântico.png)
+  
+<img
+  src="./images/readme/HTML-semântico.png"
+  alt="HTML semântico"
+  width="800"
+/>
 
 - Flexbox
-  ![alt text](./images/readme/Flexbox1.png)
-  ![alt text](./images/readme/Flexbox2.png)
-  ![alt text](./images/readme/Flexbox3.png)
-  ![alt text](./images/readme/Flexbox4.png)
-  ![alt text](./images/readme/Flexbox5.png)
-  ![alt text](./images/readme/Flexbox6.png)
-  ![alt text](./images/readme/Flexbox7.png)
+
+<img
+  src="./images/readme/Flexbox1.png"
+  alt="Flexbox 1"
+  width="800"
+/>
+<img
+  src="./images/readme/Flexbox2.png"
+  alt="Flexbox 2"
+  width="800"
+/>
+<img
+  src="./images/readme/Flexbox3.png"
+  alt="Flexbox 3"
+  width="800"
+/>
+<img
+  src="./images/readme/Flexbox4.png"
+  alt="Flexbox 4"
+  width="800"
+/>
+<img
+  src="./images/readme/Flexbox5.png"
+  alt="Flexbox 5"
+  width="800"
+/>
+<img
+  src="./images/readme/Flexbox6.png"
+  alt="Flexbox 6"
+  width="800"
+/>
+<img
+  src="./images/readme/Flexbox7.png"
+  alt="Flexbox 7"
+  width="800"
+/>
 
 - Metodologia BEM
   ![alt text](./images/readme/BEM.png)
@@ -42,10 +80,10 @@ Primeiro design responsivo, com pontos de interrupção para consultas de mídia
   ![alt text](./images/readme/Grid2.png)
   ![alt text](./images/readme/Grid3.png)
 
-# Link do GitHub Pages
+## 🔗 Link do GitHub Pages
 
 https://vanessayuriab.github.io/web_project_homeland/
 
-# Melhorias:
+## 🔧 Melhorias futuras
 
-- Usar o evento onclick do JavaScript para botões.
+- Implementar interatividade com JavaScript (eventos `onclick` em botões)
