@@ -8,7 +8,7 @@ Primeiro design responsivo, com pontos de interrupção para consultas de mídia
 
 ## 🛠️ Técnicas e conceitos aplicados
 
-HTML semântico, Flexbox, Metodologia BEM Flat, Media Queries e Grid Layout.
+HTML semântico, Flexbox, Metodologia BEM (Flat), Media Queries e Grid Layout.
 
 - HTML semântico
   
@@ -145,6 +145,19 @@ HTML semântico, Flexbox, Metodologia BEM Flat, Media Queries e Grid Layout.
   alt="Grid Layout 3"
   width="800"
 />
+
+## 📦 Como rodar o projeto localmente
+
+- Clone o repositório:
+```bash
+git clone git@github.com:VanessaYuriAB/web_project_homeland.git
+cd web_project_homeland
+```
+
+- Este é um projeto estático (_HTML e CSS_). Para visualizar:
+  - Abra o arquivo `index.html` no navegador  
+  **ou**
+  - Use uma extensão como `Live Server` no `VS Code`
 
 ## 🔗 Link do GitHub Pages
 
