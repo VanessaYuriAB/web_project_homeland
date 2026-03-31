@@ -56,29 +56,95 @@ HTML semântico, Flexbox, Metodologia BEM Flat, Media Queries e Grid Layout.
   width="800"
 />
 
-- Metodologia BEM
-  ![alt text](./images/readme/BEM.png)
+- Metodologia BEM (Flat)
 
-- BEM flat
-  ![alt text](./images/readme/BEM-flat.png)
+<img
+  src="./images/readme/BEM.png"
+  alt="BEM"
+  width="800"
+/>
+
+<img
+  src="./images/readme/BEM-flat.png"
+  alt="BEM Flat"
+  width="800"
+/>
 
 - Media Queries
-  ![alt text](./images/readme/Consulta-de-mídia1.png)
-  ![alt text](./images/readme/Consulta-de-mídia2.png)
-  ![alt text](./images/readme/Consulta-de-mídia3.png)
-  ![alt text](./images/readme/Consulta-de-mídia4.png)
-  ![alt text](./images/readme/Consulta-de-mídia5.png)
-  ![alt text](./images/readme/Consulta-de-mídia6.png)
-  ![alt text](./images/readme/Consulta-de-mídia7.png)
-  ![alt text](./images/readme/Consulta-de-mídia8.png)
-  ![alt text](./images/readme/Consulta-de-mídia9.png)
-  ![alt text](./images/readme/Consulta-de-mídia10.png)
-  ![alt text](./images/readme/Consulta-de-mídia11.png)
+
+<img
+  src="./images/readme/Consulta-de-mídia1.png"
+  alt="Media Queries 1"
+  width="800"
+/>
+<img
+  src="./images/readme/Consulta-de-mídia2.png"
+  alt="Media Queries 2"
+  width="800"
+/>
+<img
+  src="./images/readme/Consulta-de-mídia3.png"
+  alt="Media Queries 3"
+  width="800"
+/>
+<img
+  src="./images/readme/Consulta-de-mídia4.png"
+  alt="Media Queries 4"
+  width="800"
+/>
+<img
+  src="./images/readme/Consulta-de-mídia5.png"
+  alt="Media Queries 5"
+  width="800"
+/>
+<img
+  src="./images/readme/Consulta-de-mídia6.png"
+  alt="Media Queries 6"
+  width="800"
+/>
+<img
+  src="./images/readme/Consulta-de-mídia7.png"
+  alt="Media Queries 7"
+  width="800"
+/>
+<img
+  src="./images/readme/Consulta-de-mídia8.png"
+  alt="Media Queries 8"
+  width="800"
+/>
+<img
+  src="./images/readme/Consulta-de-mídia9.png"
+  alt="Media Queries 9"
+  width="800"
+/>
+<img
+  src="./images/readme/Consulta-de-mídia10.png"
+  alt="Media Queries 10"
+  width="800"
+/>
+<img
+  src="./images/readme/Consulta-de-mídia11.png"
+  alt="Media Queries 11"
+  width="800"
+/>
 
 - Grid Layout
-  ![alt text](./images/readme/Grid1.png)
-  ![alt text](./images/readme/Grid2.png)
-  ![alt text](./images/readme/Grid3.png)
+  
+<img
+  src="./images/readme/Grid1.png"
+  alt="Grid Layout 1"
+  width="800"
+/>
+<img
+  src="./images/readme/Grid2.png"
+  alt="Grid Layout 2"
+  width="800"
+/>
+<img
+  src="./images/readme/Grid3.png"
+  alt="Grid Layout 3"
+  width="800"
+/>
 
 ## 🔗 Link do GitHub Pages
 
