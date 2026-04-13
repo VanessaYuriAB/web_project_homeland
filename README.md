@@ -1,24 +1,125 @@
-# 🌍 Web_project_homeland: De Pátria para Pátria
+# 🌍 Web Project: Homeland
 
-Página web responsiva que apresenta as cidades natais de alguns funcionários da TripleTen, desenvolvida como parte do currículo de Desenvolvimento Web. 
+Página web **responsiva** que apresenta as cidades natais de colaboradores da
+**TripleTen**, desenvolvida como parte do **bootcamp de Desenvolvimento Web, na Sprint 5 -
+Design web adaptativo**.
 
-Com HTML e CSS avançados, Flexbox, Metodologia BEM e BEM Flat, Figma, Media Queries e Grid Layout.
+Este foi meu **primeiro projeto com foco em design web adaptativo**, seguindo fielmente um
+layout profissional no Figma e aplicando boas práticas de HTML, CSS e organização de
+código.
 
-Primeiro design responsivo, com pontos de interrupção para consultas de mídia fornecidos no projeto.
+🔗 Demonstração ao vivo: https://vanessayuriab.github.io/web_project_homeland
 
-## 🛠️ Técnicas e conceitos aplicados
+---
 
-HTML semântico, Flexbox, Metodologia BEM (Flat), Media Queries e Grid Layout.
+## 🎯 Objetivo do projeto
 
-- HTML semântico
-  
+- Transformar um **layout do Figma** em uma página web totalmente funcional
+- Implementar **responsividade real** para múltiplas resoluções
+- Aplicar **Metodologia BEM (Flat)** e organização profissional de arquivos
+- Publicar o projeto no **GitHub Pages**
+
+---
+
+## 📱 Responsividade
+
+O layout foi desenvolvido considerando os seguintes pontos de interrupção:
+
+- **Desktop**: ≥ 1280px
+- **Tablet**: 768px
+- **Mobile**: 320px
+
+Com transições suaves entre resoluções intermediárias, evitando quebras de layout ou
+rolagen (_scroll_) horizontal.
+
+---
+
+## 🛠️ Tecnologias e ferramentas
+
+- **HTML5 semântico**
+- **CSS3**
+  - Flexbox
+  - Grid Layout
+  - Media Queries
+- **Metodologia BEM (Flat)**
+- **Figma** (como referência de design)
+- **Git & GitHub**
+- **GitHub Pages** (deploy)
+
+---
+
+## 🧠 Principais aprendizados
+
+- Planejamento de **layout** antes do desenvolvimento da aplicação
+- Como tornar um site **responsivo** sem depender excessivamente de pixels
+- Uso estratégico de `Flexbox` e `Grid`
+- Organização de arquivos `CSS` com `BEM Flat`
+- Importância de **consistência visual** e atenção a **detalhes**
+- **Publicação e documentação** de projetos para portfólio
+
+---
+
+## 📂 Estrutura do projeto
+
+```bash
+├── .vscode/
+├── blocks/
+│     └── # Blocos BEM (CSS)
+├── images/
+│     ├── readme/
+│     └── # Imagens do projeto (otimizadas)
+├── pages/
+│     └── index.css
+├── vendor/
+│     ├── fonts/
+│     ├── fonts.css
+│     └── normalize.css
+├── .editorconfig
+├── .gitignore
+├── .prettierignore
+├── favicon.ico
+├── index.html
+└── README.md
+```
+
+---
+
+## ▶️ Como rodar o projeto localmente
+
+```Shell
+git clone git@github.com:VanessaYuriAB/web_project_homeland.git
+cd web_project_homeland
+```
+
+Abra o arquivo `index.html` no navegador ou utilize uma extensão como o `Live Server` no
+`VS Code`.
+
+---
+
+## 🚀 Possíveis melhorias futuras
+
+- Adicionar **interatividade** com `JavaScript`
+- Implementar `animações` leves (`hover` e `transições`)
+- Melhorar a **acessibilidade**: tornar o site totalmente navegável por teclado e aplicar
+  `ARIA` de forma apropriada para leitores de tela.
+- Refatorar para **`CSS` moderno**: refatorar estilos usando variáveis `CSS`, tipografia
+  fluida (`clamp()`), layouts mais flexíveis e menos dependência de `media queries`.
+
+---
+
+## 📸 Detalhes técnicos
+
+### HTML semântico
+
 <img
   src="./images/readme/HTML-semântico.png"
   alt="HTML semântico"
   width="800"
 />
 
-- Flexbox
+---
+
+### Flexbox
 
 <img
   src="./images/readme/Flexbox1.png"
@@ -56,7 +157,9 @@ HTML semântico, Flexbox, Metodologia BEM (Flat), Media Queries e Grid Layout.
   width="800"
 />
 
-- Metodologia BEM (Flat)
+---
+
+### Metodologia BEM (Flat)
 
 <img
   src="./images/readme/BEM.png"
@@ -70,7 +173,9 @@ HTML semântico, Flexbox, Metodologia BEM (Flat), Media Queries e Grid Layout.
   width="800"
 />
 
-- Media Queries
+---
+
+### Media Queries
 
 <img
   src="./images/readme/Consulta-de-mídia1.png"
@@ -128,8 +233,10 @@ HTML semântico, Flexbox, Metodologia BEM (Flat), Media Queries e Grid Layout.
   width="800"
 />
 
-- Grid Layout
-  
+---
+
+### Grid Layout
+
 <img
   src="./images/readme/Grid1.png"
   alt="Grid Layout 1"
@@ -146,23 +253,8 @@ HTML semântico, Flexbox, Metodologia BEM (Flat), Media Queries e Grid Layout.
   width="800"
 />
 
-## 📦 Como rodar o projeto localmente
+---
 
-- Clone o repositório:
-```bash
-git clone git@github.com:VanessaYuriAB/web_project_homeland.git
-cd web_project_homeland
-```
+## 👩‍💻 Sobre mim
 
-- Este é um projeto estático (_HTML e CSS_). Para visualizar:
-  - Abra o arquivo `index.html` no navegador  
-  **ou**
-  - Use uma extensão como `Live Server` no `VS Code`
-
-## 🔗 Link do GitHub Pages
-
-https://vanessayuriab.github.io/web_project_homeland/
-
-## 🔧 Melhorias futuras
-
-- Implementar interatividade com JavaScript (eventos `onclick` em botões)
+Desenvolvedora web recém-formada no bootcamp de Desenvolvimento Web da TripleTen Brasil.
