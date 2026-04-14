@@ -1,12 +1,13 @@
 # 🌍 Web Project: Homeland
 
 Página web **responsiva** que apresenta as cidades natais de colaboradores da
-**TripleTen**, desenvolvida como parte do **bootcamp de Desenvolvimento Web, na Sprint 5 -
-Design web adaptativo**.
+**TripleTen**, desenvolvida ao longo das **Sprints 5 (Design web adaptativo) e 6 (Como**
+**trabalhar com layouts)** do bootcamp de **Desenvolvimento Web**.
 
-Este foi meu **primeiro projeto com foco em design web adaptativo**, seguindo fielmente um
-layout profissional no Figma e aplicando boas práticas de HTML, CSS e organização de
-código.
+O projeto começou com foco em **design web adaptativo** e foi expandido posteriormente com
+**layouts mais complexos usando Grid**, além da aplicação de **gradientes, sombras e**
+**efeitos de hover**, seguindo fielmente um layout profissional no Figma e boas práticas
+de HTML, CSS e organização de código.
 
 🔗 Demonstração ao vivo: https://vanessayuriab.github.io/web_project_homeland
 
@@ -14,9 +15,11 @@ código.
 
 ## 🎯 Objetivo do projeto
 
-- Transformar um **layout do Figma** em uma página web totalmente funcional
-- Implementar **responsividade real** para múltiplas resoluções
-- Aplicar **Metodologia BEM (Flat)** e organização profissional de arquivos
+- Transformar um **layout profissional do `Figma`** em uma página web funcional
+- Implementar **responsividade completa** para desktop, tablet e mobile
+- Trabalhar com **`Flexbox` e `Grid Layout`** de forma complementar
+- Aplicar **`Metodologia BEM (Flat)`** para organização escalável do `CSS`
+- Adicionar **efeitos visuais** (gradientes, sombras e estados de `hover`)
 - Publicar o projeto no **GitHub Pages**
 
 ---
@@ -29,8 +32,8 @@ O layout foi desenvolvido considerando os seguintes pontos de interrupção:
 - **Tablet**: 768px
 - **Mobile**: 320px
 
-Com transições suaves entre resoluções intermediárias, evitando quebras de layout ou
-rolagen (_scroll_) horizontal.
+A página se adapta de forma fluida entre resoluções intermediárias, evitando quebras de
+layout ou rolagem horizontal indesejada.
 
 ---
 
@@ -42,8 +45,8 @@ rolagen (_scroll_) horizontal.
   - Grid Layout
   - Media Queries
 - **Metodologia BEM (Flat)**
-- **Figma** (como referência de design)
-- **Git & GitHub**
+- **Figma** (roteiro de design)
+- **Git & GitHub** (controle de versão e ramificações)
 - **GitHub Pages** (deploy)
 
 ---
@@ -51,11 +54,13 @@ rolagen (_scroll_) horizontal.
 ## 🧠 Principais aprendizados
 
 - Planejamento de **layout** antes do desenvolvimento da aplicação
-- Como tornar um site **responsivo** sem depender excessivamente de pixels
-- Uso estratégico de `Flexbox` e `Grid`
+- Construção de **designs responsivos reais**, sem depender excessivamente de pixels
+- Uso estratégico de `Flexbox` para layouts lineares
+- Uso de `Grid Layout` para seções mais complexas (`photo-grid` e `'places`)
 - Organização de arquivos `CSS` com `BEM Flat`
-- Importância de **consistência visual** e atenção a **detalhes**
-- **Publicação e documentação** de projetos para portfólio
+- Aplicação de **gradientes, sombras e estados de interação (`hover`)**
+- Testes constantes entre **breakpoints e resoluções intermediárias**
+- Publicação e documentação de projetos para **portfólio profissional**
 
 ---
 
@@ -99,11 +104,11 @@ Abra o arquivo `index.html` no navegador ou utilize uma extensão como o `Live S
 ## 🚀 Possíveis melhorias futuras
 
 - Adicionar **interatividade** com `JavaScript`
-- Implementar `animações` leves (`hover` e `transições`)
-- Melhorar a **acessibilidade**: tornar o site totalmente navegável por teclado e aplicar
-  `ARIA` de forma apropriada para leitores de tela.
-- Refatorar para **`CSS` moderno**: refatorar estilos usando variáveis `CSS`, tipografia
-  fluida (`clamp()`), layouts mais flexíveis e menos dependência de `media queries`.
+- Implementar `animações` mais avançadas
+- Melhorar a **acessibilidade**, garantindo navegação completa por teclado e uso
+  apropriado de `ARIA`
+- Refatorar estilos para **`CSS` moderno**, com uso de variáveis `CSS`, tipografia fluida
+  (`clamp()`) e menos dependência de `media queries`
 
 ---
 
